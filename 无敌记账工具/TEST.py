@@ -16,7 +16,7 @@ def display_text(file_path):
     st.markdown(formatted)
 
 
-text_path = "C:/Users/ami/PycharmProjects/pythonProject/无敌记账工具/文字文档/使用方法介绍.txt"
+text_path = "文字文档/使用方法介绍.txt"
 display_text(text_path)
 
 st.text("备注：侧边页有简易计算器可以辅助进行快速计算")
